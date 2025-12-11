@@ -1,0 +1,52 @@
+{
+  "title": "Detailed Plant Room Design",
+  "subtitle": "Comprehensive detailed plant room MEP design services, integrating mechanical, electrical, and plumbing systems in confined spaces for optimal functionality, efficiency, and compliance.",
+  "description": [
+    "Detailed plant room MEP (Mechanical, Electrical, and Plumbing) design is a meticulous process that focuses on integrating complex building services into a confined, functional space. Plant rooms house critical infrastructure including HVAC systems, electrical distribution, plumbing networks, and fire suppression equipment.",
+    "Our detailed design approach ensures optimal space utilization, efficient system integration, and compliance with all relevant building codes and safety standards. We specialize in creating comprehensive 3D BIM models that accurately represent every component within the plant room, from large mechanical equipment to intricate piping and electrical systems."
+  ],
+  "benefits": [
+    "Optimized space utilization in confined areas",
+    "Enhanced system efficiency and performance",
+    "Improved maintenance access and future-proofing",
+    "Regulatory compliance and safety standards",
+    "Cost-effective solutions and prefabrication",
+    "Comprehensive 3D BIM modeling and coordination"
+  ],
+  "services": [
+    {
+      "icon": "fa-cube",
+      "title": "3D Plant Room Modeling",
+      "description": "Create detailed 3D BIM models of plant rooms, accurately representing all MEP systems and equipment."
+    },
+    {
+      "icon": "fa-network-wired",
+      "title": "MEP System Integration",
+      "description": "Seamlessly integrate mechanical, electrical, and plumbing systems within the plant room constraints."
+    },
+    {
+      "icon": "fa-map-marked-alt",
+      "title": "Equipment Layout Design",
+      "description": "Optimize equipment placement for accessibility, efficiency, and safety within the plant room space."
+    },
+    {
+      "icon": "fa-wind",
+      "title": "Ventilation & HVAC Design",
+      "description": "Design efficient ventilation and HVAC systems tailored to the specific requirements of the plant room."
+    },
+    {
+      "icon": "fa-plug",
+      "title": "Electrical Distribution Planning",
+      "description": "Plan comprehensive electrical distribution systems, including power, lighting, and control circuits."
+    },
+    {
+      "icon": "fa-tint",
+      "title": "Plumbing & Drainage Systems",
+      "description": "Design plumbing and drainage systems that meet building codes and operational requirements."
+    }
+  ],
+  "cta": {
+    "title": "Optimize Your Plant Room Design Today",
+    "description": "Contact us to discuss how our detailed plant room MEP design services can enhance your building's infrastructure."
+  }
+}

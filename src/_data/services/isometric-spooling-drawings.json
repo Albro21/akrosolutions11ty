@@ -1,0 +1,41 @@
+{
+  "title": "Isometric & Spooling Drawings",
+  "subtitle": "Essential technical documentation for complex piping, plumbing, and mechanical systems in construction and fabrication industries.",
+  "description": [
+    "Isometric and spooling drawings are essential technical documents used in the construction and fabrication industry, particularly for complex piping, plumbing, and mechanical systems. These detailed drawings provide accurate representations of system layouts, dimensions, and specifications.",
+    "Our isometric and spooling drawing services deliver precise technical documentation that ensures accurate fabrication, installation, and maintenance of MEP systems. We use advanced BIM technology to create comprehensive drawings that meet industry standards and project requirements."
+  ],
+  "benefits": [
+    "Accurate representation of complex systems",
+    "Improved fabrication and installation efficiency",
+    "Reduced errors and rework during construction",
+    "Enhanced coordination between trades",
+    "Compliance with industry standards and codes"
+  ],
+  "services": [
+    {
+      "icon": "fa-draw-polygon",
+      "title": "Isometric Drawings",
+      "description": "Detailed 3D representations of piping and mechanical systems with accurate dimensions and specifications."
+    },
+    {
+      "icon": "fa-scroll",
+      "title": "Spooling Drawings",
+      "description": "Fabrication-ready drawings for pipe spools with precise measurements and connection details."
+    },
+    {
+      "icon": "fa-cogs",
+      "title": "MEP System Drawings",
+      "description": "Comprehensive drawings for mechanical, electrical, and plumbing systems."
+    },
+    {
+      "icon": "fa-file-contract",
+      "title": "As-Built Documentation",
+      "description": "Accurate documentation of installed systems for maintenance and future reference."
+    }
+  ],
+  "cta": {
+    "title": "Need Accurate Technical Drawings?",
+    "description": "Contact us for professional isometric and spooling drawing services that ensure precision in your MEP systems."
+  }
+}

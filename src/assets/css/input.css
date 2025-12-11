@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@theme {
+    --color-akro-1: #6844A7;
+    --color-akro-2: #FF04EC;
+    --color-akro-3: #00DCFC;
+    --color-services-button: 
+}
+
+.btn-right {
+    --fill-colors: rgba(159, 103, 255, .22), rgba(197, 66, 255, .35);
+    --border-colors: rgba(171, 78, 252, .82) 0%, rgba(108, 31, 198, .24) 53%, #7C45C2 100%;
+    background: linear-gradient(var(--fill-colors));
+    border: none;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.125rem; /* text-lg */
+    font-weight: bold;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.btn-right:hover {
+    transform: translateY(-2px);
+}
+
+.gradient-title {
+    background: linear-gradient(to right, var(--color-akro-2), var(--color-akro-1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.gradient-title-projects {
+    background: linear-gradient(to right, var(--color-akro-3), var(--color-akro-1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.btn-blue {
+    --fill-colors: rgba(0, 123, 255, .25), rgba(0, 140, 255, .4);
+    background: linear-gradient(var(--fill-colors));
+    border: none;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: bold;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.btn-blue:hover {
+    transform: translateY(-2px);
+}
+
+/* Custom animations */
+@keyframes fade-slide {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-slide {
+  animation: fade-slide 1s ease-out forwards;
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-down {
+  animation: slide-down 1s ease-out forwards;
+}
+
+.delay-500 {
+  animation-delay: 500ms;
+}
+
+.delay-1000 {
+  animation-delay: 1000ms;
+}
+
+@keyframes slide-software {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.animate-slide-software {
+  width: max-content;
+  display: flex;
+  animation: slide-software 40s linear infinite;
+}

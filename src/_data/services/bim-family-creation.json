@@ -1,0 +1,52 @@
+{
+  "title": "BIM Family Creation",
+  "subtitle": "Expert BIM family creation services for custom, reusable components in Revit and AutoCAD.",
+  "description": [
+    "BIM family creation is the process of building custom, reusable components (often called BIM objects or families) within BIM software like Autodesk Revit or AutoCAD. These families are the fundamental building blocks of a BIM model, representing everything from standard doors and windows to complex mechanical equipment elements.",
+    "Our expert team specializes in creating high-quality, parametric families that are not only visually accurate but also functionally rich. We ensure that each family includes appropriate parameters for scheduling, quantity takeoffs, and performance analysis, making them indispensable tools for efficient BIM modeling and project management."
+  ],
+  "benefits": [
+    "Reusable components across multiple projects",
+    "Data-rich families with comprehensive parameters",
+    "Customized to specific project requirements",
+    "Time-efficient modeling with pre-built families",
+    "Industry standards and compliance assurance",
+    "Enhanced team collaboration and consistency"
+  ],
+  "services": [
+    {
+      "icon": "fa-cube",
+      "title": "Architectural Families",
+      "description": "Create families for doors, windows, furniture, and other architectural elements."
+    },
+    {
+      "icon": "fa-cogs",
+      "title": "MEP Families",
+      "description": "Develop families for mechanical, electrical, and plumbing equipment and components."
+    },
+    {
+      "icon": "fa-wrench",
+      "title": "Parametric Families",
+      "description": "Build intelligent, parametric families that adapt to different sizes and configurations."
+    },
+    {
+      "icon": "fa-file-alt",
+      "title": "Family Documentation",
+      "description": "Provide comprehensive documentation and usage guidelines for created families."
+    },
+    {
+      "icon": "fa-sync",
+      "title": "Family Updates",
+      "description": "Maintain and update families to ensure compatibility with new software versions."
+    },
+    {
+      "icon": "fa-book",
+      "title": "Library Management",
+      "description": "Organize and manage family libraries for efficient access and version control."
+    }
+  ],
+  "cta": {
+    "title": "Create Custom BIM Families Today",
+    "description": "Contact us to discuss how our BIM family creation services can provide you with high-quality, reusable components for your projects."
+  }
+}

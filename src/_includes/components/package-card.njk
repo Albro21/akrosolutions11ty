@@ -1,0 +1,24 @@
+<div class="group relative rounded-xl p-1 bg-linear-to-br from-akro-1 via-akro-2 to-akro-3 hover:scale-105 transition-transform duration-500 flex flex-col">
+  <div class="bg-gray-800 rounded-xl shadow-xl group-hover:shadow-akro1/40 transition-all duration-500 ease-out flex-1 flex flex-col">
+    <div class="w-full h-60 overflow-hidden shrink-0">
+      <!-- Placeholder for image -->
+      <div class="w-full h-full bg-linear-to-br from-akro-1 to-akro-2 flex items-center justify-center text-gray-50 text-6xl">
+        <i class="fa-solid {{ package.icon }}"></i>
+      </div>
+    </div>
+    <div class="p-6 flex flex-col flex-1">
+      <h3 class="text-xl font-bold text-gray-50 mb-3">{{ package.title }}</h3>
+      <p class="text-gray-300 flex-1{% if package.details %} mb-3{% endif %}">
+        {{ package.description }}
+      </p>
+      {% if package.details %}
+        <ul class="text-gray-300 text-sm space-y-1 mb-3">
+          {% for detail in package.details %}
+            <li>• {{ detail }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      <a href="/contact.html" class="w-full py-3 rounded-full text-lg font-bold text-white text-center btn-right mt-4">Get Quote</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,97 @@
+{
+  "title": "FRA1W Data Centre",
+  "location": "Mainz, Germany",
+  "power": "80 MW Power",
+  "area": "18,000 m² Whitespace",
+  "description": [
+    "FRA1W is one of the most modern and sustainable data centers in Europe, located in Mainz, Germany. The first of three data center buildings on a site area of <span class=\"text-akro-3 font-semibold\">25,000 square meters</span>, which will house a total output of <span class=\"text-akro-3 font-semibold\">80 MW</span> on <span class=\"text-akro-3 font-semibold\">18,000 square meters of whitespace</span>.",
+    "This facility is directly connected to Mainz's district heating network, transforming digital heat into green heat. The data center heats cooling water to around 30°C, a large heat pump raises the temperature to up to 125°C, and the heat is fed into Mainz's district heating network via heat exchangers. The system provides <span class=\"text-akro-3 font-semibold\">up to 60 MW of waste heat</span> for the Mainz district heating network, making a significant contribution to the decarbonization of district heating.",
+    "The data center operates with green electricity from renewable energy sources and features Rhine water cooling. The emergency power supply is provided by on-site power plants, eliminating the need for expensive and climate-damaging diesel generators, making the data center <span class=\"text-akro-3 font-semibold\">emission-free</span>.",
+    "Built exclusively to <span class=\"text-akro-3 font-semibold\">Level 3 standards</span>, all systems are redundant, ensuring extremely high availability. The strategic proximity to the Frankfurt Internet Exchange (DE-CIX) and optimal location on the Ingelheimer Aue provide excellent connectivity and infrastructure advantages."
+  ],
+  "stage5": {
+    "packages": [
+      {
+        "title": "Mechanical Package",
+        "description": "Comfort Cooling / Critical Cooling / Heating / Ventilation / Smoke Extraction & Fresh Air Systems"
+      },
+      {
+        "title": "Public Health Package",
+        "description": "Domestic / Drainage / Sanitary"
+      },
+      {
+        "title": "Large Two-Level Basement Plant Room Package"
+      },
+      {
+        "title": "Isometrics Package",
+        "description": "Comfort Cooling / Critical Cooling"
+      },
+      {
+        "title": "Risers Package"
+      },
+      {
+        "title": "Schematics Package"
+      }
+    ],
+    "additional": "Management / Stage 5 BIM Family Creation / Clash Detection / BWIC & Supports layouts"
+  },
+  "stage6": {
+    "packages": [
+      {
+        "title": "As Built Revit & Navisworks Models"
+      },
+      {
+        "title": "As Built Drawings & Schematics"
+      },
+      {
+        "title": "Point Cloud / As Installed Updates"
+      }
+    ]
+  },
+  "specifications": [
+    [
+      {
+        "icon": "fa-calendar",
+        "title": "Construction Start",
+        "value": "Autumn 2023"
+      },
+      {
+        "icon": "fa-flag-checkered",
+        "title": "Phase 1 Completion",
+        "value": "Q4 2026"
+      },
+      {
+        "icon": "fa-building",
+        "title": "Size",
+        "value": "3 buildings with 6,000 m² IT space each"
+      },
+      {
+        "icon": "fa-bolt",
+        "title": "Total Power",
+        "value": "80 MW"
+      }
+    ],
+    [
+      {
+        "icon": "fa-leaf",
+        "title": "Operation",
+        "value": "Powered by green electricity from renewable energy"
+      },
+      {
+        "icon": "fa-shield-halved",
+        "title": "Emergency Power",
+        "value": "On-site power plants - emission-free, no diesel generators"
+      },
+      {
+        "icon": "fa-snowflake",
+        "title": "Cooling",
+        "value": "Rhine water cooling system"
+      },
+      {
+        "icon": "fa-fire",
+        "title": "Waste Heat",
+        "value": "Up to 60 MW for Mainz district heating network"
+      }
+    ]
+  ]
+}

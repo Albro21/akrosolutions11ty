@@ -1,0 +1,41 @@
+{
+  "title": "Point Cloud Survey",
+  "subtitle": "Advanced 3D laser scanning and photogrammetry services for spatial data capture and BIM modeling across construction and engineering projects.",
+  "description": [
+    "A point cloud survey is an advanced method of spatial data capture that uses 3D laser scanning (LiDAR) or photogrammetry to collect millions of data points from a physical space or object. This technology creates highly accurate digital representations of existing conditions.",
+    "Our point cloud survey services provide precise spatial data for BIM modeling, renovation projects, and facility management. We use state-of-the-art laser scanning equipment to capture detailed information that serves as the foundation for accurate digital twins and construction documentation."
+  ],
+  "benefits": [
+    "Highly accurate spatial data capture",
+    "Non-invasive surveying of existing conditions",
+    "Fast data collection and processing",
+    "Detailed digital representations for BIM",
+    "Support for renovation and retrofit projects"
+  ],
+  "services": [
+    {
+      "icon": "fa-crosshairs",
+      "title": "3D Laser Scanning",
+      "description": "High-precision laser scanning to capture detailed spatial data of buildings and structures."
+    },
+    {
+      "icon": "fa-camera",
+      "title": "Photogrammetry",
+      "description": "Advanced photographic techniques for detailed spatial data collection."
+    },
+    {
+      "icon": "fa-cube",
+      "title": "BIM Model Creation",
+      "description": "Conversion of point cloud data into accurate BIM models for design and analysis."
+    },
+    {
+      "icon": "fa-map-marked-alt",
+      "title": "As-Built Documentation",
+      "description": "Precise documentation of existing conditions for renovation and maintenance."
+    }
+  ],
+  "cta": {
+    "title": "Need Accurate Spatial Data?",
+    "description": "Contact us for professional point cloud survey services that provide the foundation for your BIM projects."
+  }
+}

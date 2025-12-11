@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Block access to sensitive files
+Disallow: /_site/
+Disallow: /src/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Allow access to CSS, JS, and images
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Sitemap
+Sitemap: https://akrosolutions.com/sitemap.xml

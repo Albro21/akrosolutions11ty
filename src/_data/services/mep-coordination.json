@@ -1,0 +1,51 @@
+{
+  "title": "MEP Coordination",
+  "subtitle": "Critical process of systematically integrating Mechanical, Electrical, and Plumbing systems within architectural and structural constraints.",
+  "description": [
+    "MEP coordination is the critical process of systematically integrating a building's Mechanical, Electrical, and Plumbing systems within the architectural and structural constraints of a project. It ensures that all building systems work harmoniously together without conflicts or inefficiencies.",
+    "Our MEP Coordination services provide comprehensive integration of HVAC, electrical, plumbing, and other building systems. We use advanced BIM technology to identify potential conflicts early in the design phase, ensuring smooth construction and optimal building performance."
+  ],
+  "benefits": [
+    "Elimination of system conflicts and clashes",
+    "Improved coordination between MEP trades",
+    "Reduced construction delays and rework",
+    "Enhanced building system efficiency and performance",
+    "Cost savings through optimized system layouts"
+  ],
+  "services": [
+    {
+      "icon": "fa-cogs",
+      "title": "System Integration",
+      "description": "Coordinating the integration of mechanical, electrical, and plumbing systems within building constraints."
+    },
+    {
+      "icon": "fa-search",
+      "title": "Clash Detection",
+      "description": "Automated identification and resolution of conflicts between MEP systems and building elements."
+    },
+    {
+      "icon": "fa-route",
+      "title": "Routing Optimization",
+      "description": "Optimizing the routing of MEP systems for efficiency, accessibility, and maintenance."
+    },
+    {
+      "icon": "fa-file-contract",
+      "title": "Code Compliance",
+      "description": "Ensuring all MEP systems meet building codes, standards, and regulatory requirements."
+    },
+    {
+      "icon": "fa-users",
+      "title": "Trade Coordination",
+      "description": "Facilitating effective communication and coordination between MEP subcontractors."
+    },
+    {
+      "icon": "fa-chart-line",
+      "title": "Performance Analysis",
+      "description": "Analyzing system performance and optimizing for energy efficiency and operational costs."
+    }
+  ],
+  "cta": {
+    "title": "Ready to Optimize Your MEP Systems?",
+    "description": "Contact us today to discuss how our MEP Coordination services can improve your project outcomes."
+  }
+}

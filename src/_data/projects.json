@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Frankfurt Data Centre",
+    "location": "Frankfurt, Germany",
+    "details": [
+      "16,2MW Total Power",
+      "8,200 m²"
+    ],
+    "link": "fra18.html",
+    "images": ["FRA18_1.png", "FRA18_2.png", "FRA18_3.png"]
+  },
+  {
+    "title": "London 5 <i class=\"fa-solid fa-star text-sm text-yellow-500 align-middle pb-2.5\"></i> Star Hotel",
+    "location": "London, UK",
+    "details": [
+      "150+ Rooms",
+      "9,200 m²"
+    ],
+    "link": "ritz.html",
+    "images": ["RITZ_1.png", "RITZ_2.png", "RITZ_3.png"]
+  },
+  {
+    "title": "Lisbon Data Centre",
+    "location": "Lisbon, Portugal",
+    "details": [
+      "10MW Total Power",
+      "3,162 m²"
+    ],
+    "link": "lis01.html",
+    "images": ["LIS01_1.png", "LIS01_2.png"]
+  },
+  {
+    "title": "Mainz Data Centre",
+    "location": "Mainz, Germany",
+    "details": [
+      "20MW Total Power",
+      "6,000 m²"
+    ],
+    "link": "fra1w.html"
+  },
+  {
+    "title": "Vienna Office Building",
+    "location": "Vienna, Austria",
+    "details": [
+      "8MW Total Power",
+      "5,000 m²"
+    ],
+    "link": "vie008.html"
+  },
+  {
+    "title": "Vienna Data Centre",
+    "location": "Vienna, Austria",
+    "details": [
+      "10MW Total Power",
+      "6,500 m²"
+    ],
+    "link": "vie013.html"
+  }
+]

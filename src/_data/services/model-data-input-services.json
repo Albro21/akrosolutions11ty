@@ -1,0 +1,41 @@
+{
+  "title": "Model Data Input Services",
+  "subtitle": "Comprehensive Revit model data input services adding geometric and non-geometric information to create data-rich BIM environments.",
+  "description": [
+    "Revit models are data-rich environments designed to consolidate all project information into a 'single source of truth.' Data input involves adding both geometric information (the physical model elements) and non-geometric information (parameters, properties, metadata) to create comprehensive BIM models.",
+    "Our model data input services ensure that your BIM models contain all necessary information for effective project management, quantity takeoffs, scheduling, and facility management. We meticulously input data according to industry standards and project requirements."
+  ],
+  "benefits": [
+    "Comprehensive data-rich BIM models",
+    "Accurate quantity takeoffs and cost estimation",
+    "Enhanced facility management capabilities",
+    "Improved project coordination and decision-making",
+    "Compliance with BIM standards and protocols"
+  ],
+  "services": [
+    {
+      "icon": "fa-database",
+      "title": "Parameter Input",
+      "description": "Systematic input of model parameters, properties, and metadata."
+    },
+    {
+      "icon": "fa-tags",
+      "title": "Data Classification",
+      "description": "Proper classification and tagging of model elements for analysis."
+    },
+    {
+      "icon": "fa-chart-bar",
+      "title": "Quantity Extraction",
+      "description": "Automated extraction of quantities for cost estimation and procurement."
+    },
+    {
+      "icon": "fa-file-alt",
+      "title": "Documentation",
+      "description": "Comprehensive documentation of data input processes and standards."
+    }
+  ],
+  "cta": {
+    "title": "Need Data-Rich BIM Models?",
+    "description": "Contact us for professional model data input services that maximize the value of your BIM investments."
+  }
+}
