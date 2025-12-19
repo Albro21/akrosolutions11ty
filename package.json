@@ -1,14 +1,12 @@
 {
   "name": "akrosolutions11ty",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build:css": "tailwindcss -i src/assets/css/input.css -o src/assets/css/output.css",
     "dev:css": "tailwindcss -i src/assets/css/input.css -o src/assets/css/output.css --watch",
     "dev": "concurrently \"npm run dev:css\" \"eleventy --serve\"",
-    "build": "npm run build:css && eleventy",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build:css && eleventy"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +19,6 @@
   },
   "devDependencies": {
     "concurrently": "^9.2.1"
-  }
+  },
+  "description": ""
 }

@@ -1,30 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 
-// Load projects array from projects.json (for projects page grid)
-export function loadProjectsArray() {
-  const projectsPath = path.join(process.cwd(), 'src/_data/projects.json');
-  const imagesDir = path.join(process.cwd(), 'src/assets/images/projects');
-  const projects = JSON.parse(fs.readFileSync(projectsPath, 'utf8'));
-
-  // For each project, dynamically load images from its folder
-  projects.forEach(project => {
-    const projectKey = project.link.replace('.html', '');
-    const projectImagesDir = path.join(imagesDir, projectKey);
-    let images = [];
-
-    if (fs.existsSync(projectImagesDir)) {
-      images = fs.readdirSync(projectImagesDir)
-        .filter(file => /\.(png|jpg|jpeg|gif|webp)$/i.test(file))
-        .sort();
-    }
-
-    project.images = images;
-  });
-
-  return projects;
-}
-
 // Load projects detail data from individual JSON files
 export function loadProjectsData() {
   const projectsDir = path.join(process.cwd(), 'src/_data/projects');
