@@ -31,24 +31,24 @@
   <!-- Content -->
   <div class="p-6 space-y-3 text-gray-200">
 
-    {% if project.data.details.title %}
-      <h3 class="text-2xl font-semibold text-gray-50">{{ project.data.details.title | safe }}</h3>
+    {% if project.data.title %}
+      <h3 class="text-2xl font-semibold text-gray-50">{{ project.data.title | safe }}</h3>
     {% endif %}
 
-    {% if project.data.details.location %}
-      <p><i class="fa-solid fa-location-dot text-akro-3"></i> {{ project.data.details.location }}</p>
+    {% if project.data.location %}
+      <p><i class="fa-solid fa-location-dot text-akro-3"></i> {{ project.data.location }}</p>
     {% endif %}
 
-    {% if project.data.details.power %}
-      <p><i class="fa-solid fa-bolt text-akro-3"></i> {{ project.data.details.power }}</p>
+    {% if project.data.power %}
+      <p><i class="fa-solid fa-bolt text-akro-3"></i> {{ project.data.power }}</p>
     {% endif %}
     
-    {% if project.data.details.rooms %}
-      <p><i class="fa-solid fa-bed text-akro-3"></i> {{ project.data.details.rooms }} Rooms</p>
+    {% if project.data.rooms %}
+      <p><i class="fa-solid fa-bed text-akro-3"></i> {{ project.data.rooms }} Rooms</p>
     {% endif %}
 
-    {% if project.data.details.area %}
-      <p><i class="fa-solid fa-up-down-left-right text-akro-3"></i> {{ project.data.details.area }}</p>
+    {% if project.data.area %}
+      <p><i class="fa-solid fa-up-down-left-right text-akro-3"></i> {{ project.data.area }}</p>
     {% endif %}
 
     <a href="{{ project.url }}" class="mt-4 w-full py-3 rounded-full text-lg font-bold text-white text-center block btn-blue">Learn More</a>
