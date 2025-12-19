@@ -3,7 +3,7 @@
   <div class="relative slideshow-container" data-autoplay="false">
     <div class="relative h-60">
       {% for image in service.images %}
-        <img src="./assets/images/services/{{ service.link | replace('.html', '') }}/{{ image }}" class="absolute w-full h-full object-cover transition-opacity duration-500 slideshow-image {% if loop.first %}opacity-100{% else %}opacity-0{% endif %}" alt="{{ service.title }} {{ loop.index }}">
+        <img src="/assets/images/services/{{ service.link | replace('.html', '') }}/{{ image }}" class="absolute w-full h-full object-cover transition-opacity duration-500 slideshow-image {% if loop.first %}opacity-100{% else %}opacity-0{% endif %}" alt="{{ service.title }} {{ loop.index }}">
       {% endfor %}
     </div>
 

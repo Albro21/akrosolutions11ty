@@ -1,35 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 
-// Load projects detail data from individual JSON files
-export function loadProjectsData() {
-  const projectsDir = path.join(process.cwd(), 'src/_data/projects');
-  const imagesDir = path.join(process.cwd(), 'src/assets/images/projects');
-
-  const projectFiles = fs.readdirSync(projectsDir).filter(file => file.endsWith('.json'));
-  const projects = {};
-
-  projectFiles.forEach(file => {
-    const projectKey = path.basename(file, '.json');
-    const projectPath = path.join(projectsDir, file);
-    const projectData = JSON.parse(fs.readFileSync(projectPath, 'utf8'));
-
-    const projectImagesDir = path.join(imagesDir, projectKey);
-    let images = [];
-
-    if (fs.existsSync(projectImagesDir)) {
-      images = fs.readdirSync(projectImagesDir)
-        .filter(file => /\.(png|jpg|jpeg|gif|webp)$/i.test(file))
-        .sort();
-    }
-
-    projectData.slideshow = images;
-    projects[projectKey] = projectData;
-  });
-
-  return projects;
-}
-
 // Load services array from services.json (for services page grid)
 export function loadServicesArray() {
   const servicesPath = path.join(process.cwd(), 'src/_data/services.json');

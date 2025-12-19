@@ -6,7 +6,7 @@ metaKeywords: "BIM, 3D modeling, LOD, Revit, BIM coordination, prefabrication, f
 ---
 
 <!-- Background Image -->
-<div class="h-dvh relative bg-cover bg-center" style="background-image: url('./assets/images/background.avif');">
+<div class="h-dvh relative bg-cover bg-center" style="background-image: url('/assets/images/background.avif');">
   <div class="h-full flex lg:items-center px-6 2xl:ms-24">
     <div class="text-left mt-22 lg:mt-0">
       <h1 class="text-4xl sm:text-6xl lg:text-8xl font-bold text-gray-50 leading-snug animate-fade-slide delay-500" style="opacity: 0;">
@@ -28,12 +28,12 @@ metaKeywords: "BIM, 3D modeling, LOD, Revit, BIM coordination, prefabrication, f
       <!-- Slideshow -->
       <div class="relative slideshow-container rounded-xl overflow-hidden" data-autoplay="true">
         <div class="relative h-96">
-          <img src="./assets/images/gallery/gallery1.png" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 slideshow-image opacity-100" alt="Gallery Image 1">
-          <img src="./assets/images/gallery/gallery2.png" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 slideshow-image opacity-0" alt="Gallery Image 2">
-          <img src="./assets/images/gallery/gallery3.png" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 slideshow-image opacity-0" alt="Gallery Image 3">
-          <img src="./assets/images/gallery/gallery4.png" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 slideshow-image opacity-0" alt="Gallery Image 4">
-          <img src="./assets/images/gallery/gallery5.png" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 slideshow-image opacity-0" alt="Gallery Image 5">
-          <img src="./assets/images/gallery/gallery6.png" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 slideshow-image opacity-0" alt="Gallery Image 6">
+          <img src="/assets/images/gallery/gallery1.png" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 slideshow-image opacity-100" alt="Gallery Image 1">
+          <img src="/assets/images/gallery/gallery2.png" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 slideshow-image opacity-0" alt="Gallery Image 2">
+          <img src="/assets/images/gallery/gallery3.png" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 slideshow-image opacity-0" alt="Gallery Image 3">
+          <img src="/assets/images/gallery/gallery4.png" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 slideshow-image opacity-0" alt="Gallery Image 4">
+          <img src="/assets/images/gallery/gallery5.png" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 slideshow-image opacity-0" alt="Gallery Image 5">
+          <img src="/assets/images/gallery/gallery6.png" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 slideshow-image opacity-0" alt="Gallery Image 6">
         </div>
 
         <!-- Navigation Buttons -->
@@ -70,7 +70,7 @@ metaKeywords: "BIM, 3D modeling, LOD, Revit, BIM coordination, prefabrication, f
 </section>
 
 <!-- Services -->
-<section id="services" class="bg-cover" style="background-image: url('./assets/images/background.avif');">
+<section id="services" class="bg-cover" style="background-image: url('/assets/images/background.avif');">
   <div class="bg-gray-950/60 backdrop-blur-md py-22 px-6">
     <div class="max-w-7xl mx-auto mb-4 flex items-center justify-between">
       <!-- Title -->
@@ -115,8 +115,8 @@ metaKeywords: "BIM, 3D modeling, LOD, Revit, BIM coordination, prefabrication, f
 
   <!-- Banner Images -->
   <div class="w-full flex justify-center">
-    <img src="./assets/images/banner_horizontal.png" class="sm:hidden w-full max-w-7xl rounded-lg shadow-lg" alt="BIM Level of Development Banner">
-    <img src="./assets/images/banner_vertical.png" class="hidden sm:block w-full max-w-7xl rounded-lg shadow-lg" alt="BIM Level of Development Banner">
+    <img src="/assets/images/banner_horizontal.png" class="sm:hidden w-full max-w-7xl rounded-lg shadow-lg" alt="BIM Level of Development Banner">
+    <img src="/assets/images/banner_vertical.png" class="hidden sm:block w-full max-w-7xl rounded-lg shadow-lg" alt="BIM Level of Development Banner">
   </div>
 
 </section>
@@ -225,12 +225,12 @@ metaKeywords: "BIM, 3D modeling, LOD, Revit, BIM coordination, prefabrication, f
     <div class="animate-slide-software">
       <!-- Software Icons -->
       {% for image in softwareImages %}
-        <img src="./assets/images/software/{{ image }}" alt="Software {{ loop.index }}" class="h-20 w-20 mx-4 object-cover rounded-lg shadow-lg">
+        <img src="/assets/images/software/{{ image }}" alt="Software {{ loop.index }}" class="h-20 w-20 mx-4 object-cover rounded-lg shadow-lg">
       {% endfor %}
 
       <!-- Repeat for smooth infinite scroll -->
       {% for image in softwareImages %}
-        <img src="./assets/images/software/{{ image }}" alt="Software {{ loop.index }}" class="h-20 w-20 mx-4 object-cover rounded-lg shadow-lg">
+        <img src="/assets/images/software/{{ image }}" alt="Software {{ loop.index }}" class="h-20 w-20 mx-4 object-cover rounded-lg shadow-lg">
       {% endfor %}
     </div>
   </div>
