@@ -1,4 +1,4 @@
-<header class="bg-gray-950/60 fixed w-full z-50 backdrop-blur-md {% if page.url == "/" or page.url == "/index.html" %}animate-slide-down{% endif %}">
+<header class="bg-gray-950/60 fixed w-full z-50 backdrop-blur-md {% if page.url == "/" %}animate-slide-down{% endif %}">
   <!-- Desktop -->
   <nav class="mx-auto flex max-w-7xl items-center justify-between py-4 px-6 lg:px-8">
     <div class="flex lg:flex-1">
@@ -31,12 +31,12 @@
           <a href="/bim-family-creation.html" class="block px-4 py-2 hover:bg-gray-700">BIM Family Creation</a>
         </div>
       </div>
-      <a href="/bim-packages.html">BIM Packages</a>
+      <a href="/bim-packages">BIM Packages</a>
       <a href="/projects">Projects</a>
       <a href="https://akrobim.shop">BIM Library</a>
     </div>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-      <a href="/contact.html" class="px-4 py-1.5 rounded-2xl bg-gray-300 text-gray-900 font-semibold">Contact Us <i class="ms-1 fa-regular fa-address-card"></i>
+      <a href="/contact" class="px-4 py-1.5 rounded-2xl bg-gray-300 text-gray-900 font-semibold">Contact Us <i class="ms-1 fa-regular fa-address-card"></i>
       </a>
     </div>
   </nav>
@@ -45,14 +45,14 @@
   <nav class="px-6 bg-gray-950/60 max-h-0 overflow-hidden transition-all duration-500 ease-in-out" id="mobileMenu">
     <div class="p-4 flex flex-col font-semibold text-gray-300 gap-4">
       <a href="/" class="transition-all duration-300 ease-out hover:text-akro-1">Home</a>
-      {% if page.url == "/" or page.url == "/index.html" %}
+      {% if page.url == "/" %}
         <a href="#about" class="transition-all duration-300 ease-out hover:text-akro-1">About</a>
       {% endif %}
       <a href="/services" class="transition-all duration-300 ease-out hover:text-akro-1">Services</a>
-      <a href="/bim-packages.html" class="transition-all duration-300 ease-out hover:text-akro-1">BIM Packages</a>
+      <a href="/bim-packages" class="transition-all duration-300 ease-out hover:text-akro-1">BIM Packages</a>
       <a href="/projects" class="transition-all duration-300 ease-out hover:text-akro-1">Projects</a>
       <a href="https://akrobim.shop" class="transition-all duration-300 ease-out hover:text-akro-1">BIM Library</a>
-      <a href="/contact.html" class="px-4 py-1.5 rounded-xl bg-gray-300 text-gray-900 font-semibold text-center transition-all duration-300 ease-out hover:bg-gray-200">Contact Us <i class="ms-1 fa-regular fa-address-card"></i>
+      <a href="/contact" class="px-4 py-1.5 rounded-xl bg-gray-300 text-gray-900 font-semibold text-center transition-all duration-300 ease-out hover:bg-gray-200">Contact Us <i class="ms-1 fa-regular fa-address-card"></i>
       </a>
     </div>
   </nav>

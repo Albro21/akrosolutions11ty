@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-// Legacy gallery support (for index.html)
+// Legacy gallery support 
 if (document.getElementById('galleryImage')) {
   const galleryImages = [
     './images/gallery/gallery1.png',
