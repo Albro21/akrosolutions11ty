@@ -3,17 +3,17 @@
     <div class="w-full h-60 overflow-hidden shrink-0">
       <!-- Placeholder for image -->
       <div class="w-full h-full bg-linear-to-br from-akro-1 to-akro-2 flex items-center justify-center text-gray-50 text-6xl">
-        <i class="fa-solid {{ package.icon }}"></i>
+        <i class="fa-solid {{ package.data.icon }}"></i>
       </div>
     </div>
     <div class="p-6 flex flex-col flex-1">
-      <h3 class="text-xl font-bold text-gray-50 mb-3">{{ package.title }}</h3>
-      <p class="text-gray-300 flex-1{% if package.details %} mb-3{% endif %}">
-        {{ package.description }}
+      <h3 class="text-xl font-bold text-gray-50 mb-3">{{ package.data.title }}</h3>
+      <p class="text-gray-300 flex-1{% if package.data.details %} mb-3{% endif %}">
+        {{ package.data.description }}
       </p>
-      {% if package.details %}
-        <ul class="text-gray-300 text-sm space-y-1 mb-3">
-          {% for detail in package.details %}
+      {% if package.data.details %}
+        <ul class="text-gray-300 text-sm space-y-1 mb-3 flex-2">
+          {% for detail in package.data.details %}
             <li>• {{ detail }}</li>
           {% endfor %}
         </ul>
